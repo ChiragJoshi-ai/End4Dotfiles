@@ -1,13 +1,13 @@
 /**
  *
- * Author : Aditya Shakya (adi1090x)
- * Github : @adi1090x
+ * author : aditya shakya (adi1090x)
+ * github : @adi1090x
  * 
- * Rofi Theme File
- * Rofi Version: 1.7.3
+ * rofi theme file
+ * rofi version: 1.7.3
  **/
 
-/*****----- Configuration -----*****/
+/*****----- configuration -----*****/
 configuration {
 	modi:                       "drun";
     show-icons:                 true;
@@ -15,11 +15,11 @@ configuration {
 	drun-display-format:        "{name}";
 }
 
-/*****----- Global Properties -----*****/
+/*****----- global properties -----*****/
 @import                          "shared/colors.rasi"
 @import                          "shared/fonts.rasi"
 
-/*****----- Main Window -----*****/
+/*****----- main window -----*****/
 window {
     transparency:                "real";
     location:                    center;
@@ -39,7 +39,7 @@ window {
     cursor:                      "default";
 }
 
-/*****----- Main Box -----*****/
+/*****----- main box -----*****/
 mainbox {
     enabled:                     true;
     spacing:                     0px;
@@ -52,7 +52,7 @@ mainbox {
     children:                    [ "inputbar", "listview" ];
 }
 
-/*****----- Inputbar -----*****/
+/*****----- inputbar -----*****/
 inputbar {
     enabled:                     true;
     spacing:                     10px;
@@ -67,13 +67,13 @@ inputbar {
 }
 
 prompt {
-    font:                       "Maple Mono NF Cn";
+    font:                       "maple mono nf cn";
     enabled:                     true;
     background-color:            inherit;
     text-color:                  inherit;
 }
 textbox-prompt-colon {
-    font:                       "Maple Mono NF CN";
+    font:                       "maple mono nf cn";
     enabled:                     true;
     expand:                      false;
     str:                         "::";
@@ -85,11 +85,11 @@ entry {
     background-color:            inherit;
     text-color:                  inherit;
     cursor:                      text;
-    placeholder:                 "Search...";
+    placeholder:                 "search...";
     placeholder-color:           inherit;
 }
 
-/*****----- Listview -----*****/
+/*****----- listview -----*****/
 listview {
     enabled:                     true;
     columns:                     1;
@@ -119,7 +119,7 @@ scrollbar {
     background-color:            @background-alt;
 }
 
-/*****----- Elements -----*****/
+/*****----- elements -----*****/
 element {
     enabled:                     true;
     spacing:                     10px;
@@ -155,7 +155,7 @@ element-text {
     horizontal-align:            0.0;
 }
 
-/*****----- Message -----*****/
+/*****----- message -----*****/
 error-message {
     padding:                     15px;
     border:                      2px solid;

@@ -1,0 +1,136 @@
+@import "colors/catppuccin.css";
+
+/* ───────────── Global ───────────── */
+
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "JetBrainsMono Nerd Font Propo";
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+window#waybar {
+    background: transparent;
+}
+
+/* ───────────── Center Capsule ───────────── */
+
+.modules-center {
+    background: @base;
+    padding: 6px 14px;
+    border-radius: 30px;
+    box-shadow: 0 5px 16px rgba(0, 0, 0, 0.45);
+}
+
+/* ───────────── Tooltip ───────────── */
+
+tooltip {
+    background: @surface0;
+    border: 1px solid @overlay0;
+    border-radius: 14px;
+}
+
+tooltip label {
+    color: @text;
+    padding: 6px 8px;
+}
+
+/* ───────────── Workspaces ───────────── */
+
+#workspaces {
+    background: transparent;
+    margin: 0 10px;
+}
+
+#workspaces button {
+    padding: 0 6px;
+    margin: 0 2px;
+    border-radius: 18px;
+    color: @subtext0;
+    transition: all 0.25s ease;
+}
+
+#workspaces button.active {
+    background: linear-gradient(
+        135deg,
+        @blue 0%,
+        @mauve 100%
+    );
+    color: @crust;
+    min-width: 42px;
+}
+
+#workspaces button:hover {
+    background: @surface1;
+    color: @text;
+}
+
+#workspaces button.urgent {
+    background: @red;
+    color: @crust;
+}
+
+/* ───────────── Modules ───────────── */
+
+#backlight,
+#custom-pacman,
+#custom-weather,
+#custom-launcher,
+#custom-notification,
+#power-profiles-daemon,
+#custom-home-folder,
+#clock,
+#idle_inhibitor,
+#custom-screenshot,
+#custom-media,
+#pulseaudio,
+#network,
+#window,
+#submap,
+#battery {
+    background: @base;
+    padding: 0 8px;
+    margin: 0 5px;
+    color: @text;
+}
+
+/* ───────────── Accents ───────────── */
+
+#clock {
+    color: @subtext1;
+}
+
+#custom-media {
+    color: @mauve;
+    margin-left: 10px;
+}
+
+#custom-weather {
+    color: @blue;
+}
+
+#custom-notification {
+    color: @rose;
+}
+
+#power-profiles-daemon {
+    color: @teal;
+}
+
+#battery {
+    color: @green;
+}
+
+#pulseaudio {
+    color: @yellow;
+}
+
+#network {
+    color: @overlay2;
+}
+
+#submap {
+    color: @teal;
+}

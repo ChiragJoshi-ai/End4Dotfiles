@@ -1,0 +1,25 @@
+/* Catppuccin Mocha – Ink Variant */
+
+@define-color base #1e1e2e;
+@define-color mantle #14141f;
+@define-color crust #0f0f17;
+
+@define-color surface0 #232335;
+@define-color surface1 #2e2e42;
+@define-color surface2 #3b3b55;
+
+@define-color text #c6cdf2;
+@define-color subtext1 #aeb6df;
+@define-color subtext0 #98a0cc;
+
+@define-color overlay2 #7f85b8;
+@define-color overlay1 #63679a;
+@define-color overlay0 #4a4e78;
+
+@define-color blue #89b4fa;
+@define-color mauve #b4a1db;
+@define-color green #9ad7a3;
+@define-color yellow #e6d89c;
+@define-color red #e38c9a;
+@define-color teal #8bd5ca;
+@define-color rose #e5a3c7;

@@ -1,0 +1,76 @@
+{
+    "position": "top",
+    "margin-top": 18,
+    "modules-center": [
+        "tray",
+        "clock",
+        "custom/media",
+        "hyprland/workspaces",
+        "pulseaudio",
+        "network",
+        "battery",
+        "idle_inhibitor",
+        "custom/screenshot"
+    ],
+    "hyprland/submap": {
+        "format": "{}",
+        "tooltip": false
+    },
+    "hyprland/workspaces": {
+        "format": "{icon}",
+        "format-icons": {
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "六",
+            "7": "七",
+            "8": "八",
+            "9": "九",
+            "10": "十"
+        },
+        "persistent-workspaces": {
+            "*": 5
+        },
+        "on-click": "activate"
+    },
+    "clock": {
+        "format": "{:%H:%M · %a, %d/%m}",
+        "tooltip": false
+    },
+    "custom/screenshot": {
+        "format": "󰄀",
+        "on-click": "grim -g \"$(slurp)\" ~/Pictures/Screenshots/$(date +%s).png",
+        "tooltip": false
+    },
+    "custom/media": {
+        "exec": "playerctl status 2>/dev/null | grep -q Playing && playerctl metadata --format '{{title}}' || echo 'No media'",
+        "interval": 2,
+        "format": "No media",
+        "tooltip": false
+    },
+    "idle_inhibitor": {
+        "format": "{icon}",
+        "format-icons": {
+            "activated": "󰛐",
+            "deactivated": "󰾪"
+        },
+        "tooltip": false
+    },
+    "battery": {
+        "format": "{capacity}%",
+        "tooltip": false
+    },
+    "network": {
+        "format-wifi": "",
+        "format-ethernet": "󰈀",
+        "tooltip": false,
+        "on-click": "swaync-client -t"
+    },
+    "bluetooth": {
+        "format": "",
+        "tooltip": false,
+        "on-click": "swaync-client -t"
+    }
+}

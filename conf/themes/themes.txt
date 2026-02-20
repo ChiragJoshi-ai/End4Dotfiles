@@ -1,0 +1,4 @@
+catppuccin
+tokyonight
+anime
+everforest
