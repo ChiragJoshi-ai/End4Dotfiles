@@ -1,51 +1,109 @@
-<h1 align="center">Hyprland · Minimal Setup</h1>
+<!-- 🌊 Animated Banner -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=260&color=gradient&text=End4Dotfiles&fontSize=60&fontAlignY=38&animation=fadeIn&desc=Hyprland%20Theme%20Engine&descAlignY=60"/>
+</p>
+
+<!-- ⚡ Typing Animation -->
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?size=28&duration=3000&color=F7768E&center=true&vCenter=true&width=1000&lines=Structured+Hyprland+Environment;Update-Safe+Theme+Framework;Waybar+%7C+Rofi+%7C+Kitty+Integrated;Engineered+for+Stability;Built+Because+Configs+Should+Not+Crash" />
+</p>
+
+---
 
 <p align="center">
-  inspired by End-4 • simplified • minimal-first
+  <img src="https://img.shields.io/github/stars/ChiragJoshi-ai/End4Dotfiles?style=for-the-badge&color=ff79c6&labelColor=1e1e2e"/>
+  <img src="https://img.shields.io/github/forks/ChiragJoshi-ai/End4Dotfiles?style=for-the-badge&color=8be9fd&labelColor=1e1e2e"/>
+  <img src="https://img.shields.io/github/last-commit/ChiragJoshi-ai/End4Dotfiles?style=for-the-badge&color=50fa7b&labelColor=1e1e2e"/>
+  <img src="https://img.shields.io/badge/Arch-Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white&labelColor=1e1e2e"/>
 </p>
 
-<br>
+---
 
-<h3>🌿 About</h3>
-<p>
-This setup is <b>inspired by End-4</b>
-</p>
-
-<p>
-The idea is to keep what works from End-4 and remove everything that feels
-<b>overly complex, noisy, or unnecessary</b> for minimal users.
-</p>
-
-<br>
-
-<h3>🎯 Focus</h3>
-<ul>
-  <li>Simple and readable configs</li>
-  <li>Minimal file structure</li>
-  <li>Only useful commands & bindings</li>
-  <li>Clean, calm aesthetics</li>
-</ul>
-
-<br>
-
-<h3>🚫 Not included</h3>
-<ul>
-  <li>Deep config nesting</li>
-  <li>Over-engineered scripts</li>
-  <li>Features you never touch</li>
-</ul>
-
-<br>
-
-<h3>🛠 How to use</h3>
-<p>
-Copy what you like.<br>
-Delete what you don’t.<br>
-Nothing here is meant to be mandatory.
-</p>
-
-<br>
+# ⚡ END4DOTFILES
 
 <p align="center">
-  made for people who like less 🖤
+<b>Hyprland • Waybar • Kitty • Rofi • SwayNC • Themed Workflow Engine</b>
 </p>
+
+---
+
+# 🔥 Preview
+
+<p align="center">
+  <img src="assets/preview.png" width="500"/>
+  <img src="assets/preview2.png" width="500"/>
+  <img src="assets/preview3.png" width="500"/>
+</p>
+
+---
+
+# 🧩 Why This Exists
+
+After trying many beautiful Hyprland setups, one problem kept appearing:
+
+They looked amazing.  
+Then Arch updated.  
+Then Hyprland crashed.
+
+Hardcoded paths.  
+Scattered configs.  
+Random scripts.  
+No backup system.
+
+So this was built differently.
+
+End4Dotfiles is structured so:
+
+✔ Updates don’t destroy your environment  
+✔ Themes are isolated  
+✔ Scripts are readable  
+✔ Everything is modular  
+✔ Nothing is chaotic  
+
+This is not just visual polish.  
+It is controlled architecture.
+
+---
+
+# 🖥 Resolution Support
+
+Optimized for:
+
+## 1920×1080
+
+But works smoothly on:
+
+- 1366×768  
+- 1600×900  
+- 2560×1440  
+- Ultrawide monitors (minor spacing tweaks)
+
+No fragile pixel-perfect traps.
+
+---
+
+# 📦 Essential Packages
+
+During installation, you can choose to automatically install the full Hyprland ecosystem.
+
+The installer runs:
+
+```bash
+yay -S --needed \
+hyprland \
+waybar \
+kitty \
+rofi \
+swaync \
+wf-recorder \
+grim \
+slurp \
+brightnessctl \
+nwg-look \
+network-manager-applet \
+bluez \
+blueman \
+alsa-utils \
+zsh
+
+```
