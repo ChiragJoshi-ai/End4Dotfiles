@@ -22,7 +22,7 @@
 # ⚡ END4DOTFILES
 
 <p align="center">
-<b>Hyprland • Waybar • Kitty • Rofi • SwayNC • Themed Workflow Engine</b>
+<b>Hyprland • Waybar • Kitty • Rofi • Themed Workflow Engine</b>
 </p>
 
 ---
@@ -42,7 +42,7 @@
 After trying many beautiful Hyprland setups, one problem kept appearing:
 
 They looked amazing.  
-Then Arch updated.  
+Then Repo updated.  
 Then Hyprland crashed.
 
 Hardcoded paths.  
